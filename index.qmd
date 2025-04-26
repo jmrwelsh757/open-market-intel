@@ -1,5 +1,5 @@
 ---
-title: "open-market-intel"
+title: "Open Market Intelligence"
 ---
 
 This is a Quarto website.
