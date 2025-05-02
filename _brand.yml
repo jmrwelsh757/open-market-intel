@@ -1,0 +1,112 @@
+meta:
+  name:
+    short: Open Market Intel
+    full: Open Market Intelligence Analytics & Automation
+  link:
+    home: https://omianalytics.com
+    github: https://github.com/omianalytics
+    linkedin: https://www.linkedin.com/company/omianalytics
+    twitter: https://twitter.com/omianalytics
+
+logo:
+  images:
+    header: logo/PricePulse.png # Replace with actual file
+    header-white: logo/PricePulse.png
+    full:
+      path: logo/PricePulse.png
+      alt: OMI Analytics full logo.
+  small: logo/PricePulse.png
+  medium:
+    light: header
+    dark: header-white
+  large: full
+
+color:
+  palette:
+    white: "#FFFFFF"
+    black: "#040404"
+    beige: "#F5F5DC"
+    purple: "#C8A2C8"
+    brown: "#D2B48C"
+    yellow: "#FFE135"
+    green: "#9ACD32"
+    gray: "#6B7D8F"  # Optional neutral for text or UI contrast
+    amber: "#FFBF69" # Accent for highlights or friendly UI
+
+  foreground: black  # Primary text
+  background: beige
+  primary: purple  # Core brand color
+  secondary: brown
+  success: green
+  info: "#6B7D8F"
+  warning: yellow
+  danger: "red"  # Optional alert color
+  light: "#FFFFFF"
+  dark: "#333333"
+
+typography:
+  fonts:
+    - family: Inter
+      source: google
+      weight: [400, 700]
+      style: [normal, italic]
+    - family: Playfair Display
+      source: google
+      weight: [600, 900]
+      style: [normal]
+    - family: JetBrains Mono
+      source: google
+      weight: [400, 600]
+      style: [normal, italic]
+
+  base:
+    family: Inter
+    weight: 400
+    size: 16px
+    line-height: 1.6
+
+  headings:
+    family: Lato
+    weight: 600
+    style: normal
+    line-height: 1.3
+    color: "#3B2E58"  # A deeper purple for headings
+
+  monospace:
+    family: JetBrains Mono
+    weight: 400
+    size: 0.9em
+
+  monospace-inline:
+    color: "#7d12ba"
+    background-color: "#f4f4f4"
+
+  monospace-block:
+    color: foreground
+    background-color: background
+    line-height: 1.4
+
+  link:
+    weight: 600
+    color: purple
+    background-color: transparent
+    decoration: underline
+
+defaults:
+  quarto:
+    format:
+      html:
+        theme: default
+        css: styles.css  # Optional: link to a custom CSS using these colors/fonts
+        toc: true
+        toc-depth: 2
+  shiny:
+    theme:
+      defaults:
+        navbar-bg: $brand-purple
+        link-color: $brand-purple
+      rules: |
+        .btn-primary {
+          background-color: $brand-purple;
+          border-color: $brand-purple;
+        }
