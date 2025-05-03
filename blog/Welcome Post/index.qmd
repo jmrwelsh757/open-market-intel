@@ -1,0 +1,11 @@
+---
+title: "Welcome Post"
+description: "First post in my Open Market Intel blog!"
+author: "Joseph"
+date: "5/3/2025"
+image: "cover.jpg"
+categories:
+  - Data Analytics
+  - Communication
+---
+
