@@ -9,17 +9,7 @@ meta:
     twitter: https://twitter.com/omianalytics
 
 logo:
-  images:
-    header: logo/PricePulse.png # Replace with actual file
-    header-white: logo/PricePulse.png
-    full:
-      path: logo/PricePulse.png
-      alt: OMI Analytics full logo.
-  small: logo/PricePulse.png
-  medium:
-    light: header
-    dark: header-white
-  large: full
+  medium: logo/omi_logo.png
 
 color:
   palette:

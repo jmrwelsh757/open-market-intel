@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clean background -->
+  <rect width="400" height="180" fill="#FFFFFF" rx="6" ry="6"/>
+  
+  <!-- Vertically centered letters -->
+  <!-- Modern O - centered at y=90 -->
+  <path d="M70,45 A45,45 0 1,1 70,135 A45,45 0 1,1 70,45 Z M70,63 A27,27 0 1,0 70,117 A27,27 0 1,0 70,63 Z" 
+        fill="#6B7D8F"/>
+  
+  <!-- Modern M - centered at y=90 -->
+  <path d="M130,45 L148,45 L175,95 L202,45 L220,45 L220,135 L202,135 L202,73 L175,120 L148,73 L148,135 L130,135 Z" 
+        fill="#9ACD32"/>
+  
+  <!-- Modern I - centered at y=90 -->
+  <rect x="240" y="45" width="18" height="90" fill="#C8A2C8"/>
+  
+  <!-- Sleek bar chart element - bottom aligned with letters at y=135 -->
+  <g transform="translate(290, 135)">
+    <rect x="0" y="-20" width="12" height="20" fill="#9ACD32"/>
+    <rect x="16" y="-50" width="12" height="50" fill="#C8A2C8"/>
+    <rect x="32" y="-30" width="12" height="30" fill="#6B7D8F"/>
+    <rect x="48" y="-60" width="12" height="60" fill="#9ACD32"/>
+    <rect x="64" y="-40" width="12" height="40" fill="#C8A2C8"/>
+    <rect x="80" y="-55" width="12" height="55" fill="#6B7D8F"/>
+  </g>
+</svg>

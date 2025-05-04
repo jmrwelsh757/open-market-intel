@@ -4,7 +4,9 @@ project:
 resources:
   - CNAME
 website:
-  title: "Open Market Intelligence"
+  sidebar: 
+    logo: logo/omi_logo.png
+    search: true
   navbar:
     right:
       - href: index.qmd
@@ -17,10 +19,6 @@ website:
 format:
   html:
     theme:
-      - minty
       - brand
     css: styles.css
     toc: false
-
-
-
