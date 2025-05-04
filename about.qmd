@@ -1,9 +1,25 @@
 ---
-title: "About"
+title: "Joseph Welsh"
+about:
+  template: broadside
+  image: logo/headshot.jpg
+  image-shape: rectangle
+  image-width: 10em
 ---
+:::{#hero-heading}
 
-About this site
+Joseph Welsh is a Data analyst with 5 years experience working in the Energy industry. Joseph enjoys teaching, learning, and problem-solving regardless of the subject of analysis. In his spare time, he and his wife Anny cook and excercise together.
 
-```{r}
-1 + 1
-```
+## Education
+
+Covenant College | Lookout Mountain, GA
+
+B.A in Economics | Sept 2016 - May 2020
+
+## Experience
+
+Tennessee Valley Authority | Energy Market Analyst | June 2019 - April 2025
+
+Covenant College | Economics Dept. Teaching Assistant | Sept 2019 - May 2020
+
+:::

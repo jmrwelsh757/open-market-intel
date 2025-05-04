@@ -46,11 +46,11 @@ color:
 
 typography:
   fonts:
-    - family: Inter
+    - family: Days One
       source: google
       weight: [400, 700]
       style: [normal, italic]
-    - family: Playfair Display
+    - family: Lato
       source: google
       weight: [600, 900]
       style: [normal]
@@ -60,7 +60,7 @@ typography:
       style: [normal, italic]
 
   base:
-    family: Inter
+    family: Lato
     weight: 400
     size: 16px
     line-height: 1.6
@@ -98,8 +98,6 @@ defaults:
       html:
         theme: default
         css: styles.css  # Optional: link to a custom CSS using these colors/fonts
-        toc: true
-        toc-depth: 2
   shiny:
     theme:
       defaults:
